@@ -1,0 +1,27 @@
+/* Aham 7aja hna heya les sélecteurs */
+/* 
+    Chneya selecteur ????
+    C'est le moyen de dire haw chneya bech nzayen
+*/
+
+/* Applique les styles sur tous les div */
+div {
+  border: solid 2px red;
+}
+
+div {
+  border: solid 5px green;
+}
+
+span {
+  border: solid 2px yellow;
+}
+
+/* 1- Inline */
+/* Fichier distant et on le link */
+/* Balise style dans le document HTML */
+/* 
+    x = 2
+    x = 4
+
+*/
