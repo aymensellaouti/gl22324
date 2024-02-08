@@ -2,7 +2,7 @@ let account = 15;
 let kadechIssalni = 10;
 const wa3d = new Promise((noufi, maNoufich) => {
   setTimeout(() => {
-    if (account > kadechIssalni) {
+    if (account >= kadechIssalni) {
       noufi(kadechIssalni);
       account -= kadechIssalni;
     } else {
@@ -21,5 +21,7 @@ wa3d.then(success).catch((message) => {
   console.log(`Non ${message.nssaba9} chwaya a3leya`);
 });
 setTimeout(() => {
-  account -= Math.ceil(Math.random() * account);
+  retrait = Math.ceil(Math.random() * account);
+  console.log("retrait aleatoire = ", retrait);
+  account -= retrait;
 }, 1000);
