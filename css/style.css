@@ -5,18 +5,31 @@
 */
 
 /* Applique les styles sur tous les div */
-div {
+/* div {
   border: solid 2px red;
 }
 
 div {
   border: solid 5px green;
-}
+} */
 
 span {
   border: solid 2px yellow;
 }
 
+.lampe {
+  width: 150px;
+  height: 150px;
+  padding: 50px;
+  border: solid black 2px;
+}
+.allume {
+  background-color: yellow;
+}
+.eteinte {
+  background-color: black;
+  color: white;
+}
 /* 1- Inline */
 /* Fichier distant et on le link */
 /* Balise style dans le document HTML */
